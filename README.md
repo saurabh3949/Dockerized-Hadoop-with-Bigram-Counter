@@ -46,35 +46,36 @@ bash start.sh
 ```
 
 ##4. Input Text file
-The master node uses [mobydick.txt](http://algs4.cs.princeton.edu/63suffix/mobydick.txt) (in hadoop-master/files directory) by default. You can replace the contents of this file to run the analysis on a different input.
+The master node uses a reduced version of [mobydick.txt](http://algs4.cs.princeton.edu/63suffix/mobydick.txt) (in hadoop-master/files directory) by default. You can replace the contents of this file to run the analysis on a different input.
 
 ##5. Output
-The script generates the following output with [mobydick.txt](http://algs4.cs.princeton.edu/63suffix/mobydick.txt):
+The script generates the following output with reduced [mobydick.txt](http://algs4.cs.princeton.edu/63suffix/mobydick.txt):
 ```
-___  _   _| |_ _ __  _   _| |_
-/ _ \| | | | __| '_ \| | | | __|
+             _               _
+  ___  _   _| |_ _ __  _   _| |_
+ / _ \| | | | __| '_ \| | | | __|
 | (_) | |_| | |_| |_) | |_| | |_
-\___/ \__,_|\__| .__/ \__,_|\__|
-              |_|              
+ \___/ \__,_|\__| .__/ \__,_|\__|
+                |_|
 
 
-Total number of bigrams: 190326
+Total number of bigrams: 554
 
-Most common bigram: ('of the', 1709)
+Most common bigram: ('of the', 5)
 
 Top 10 bigrams:
-('of the', 1709)
-('in the', 1021)
-('to the', 665)
-('from the', 399)
-('and the', 340)
-('of his', 334)
-('on the', 307)
-('of a', 305)
-('at the', 290)
-('by the', 289)
+('of the', 5)
+('in the', 4)
+('I find', 2)
+('What do', 2)
+('city of', 2)
+('find myself', 2)
+('in my', 2)
+('is a', 2)
+('to get', 2)
+('American desert,', 1)
 
-No. of bigrams required to add up to 10% of all bigrams: 173
+No. of bigrams required to add up to 10% of all bigrams: 42
 
 ```
 
